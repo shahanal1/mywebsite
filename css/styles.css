@@ -1,0 +1,262 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header{
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+}
+
+.navigation{
+  width: 100%;
+  height:93px;
+  position: sticky;
+  top: 0;
+  background-color: #e8e0d8;
+  z-index: 10;
+  overflow: hidden;
+}
+
+
+ul{
+  display: flex;
+  padding: 30px 0;
+  list-style-type: none;
+}
+
+li{
+  margin-right: auto;
+}
+
+.row1{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 20px;
+  word-wrap: break-word;
+}
+
+.row1 > div{
+  height:auto;
+  width: auto;
+  background-color: #f9f9f7;
+  color: #896d4a;
+  
+  
+}
+
+.box1{
+  background-image: url("../images/coffe.png");
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 100px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box1 > div{
+  height: auto;
+  width: auto;
+}
+
+.box2{
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -435px 100px 100px 500px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.box2 > div{
+  height: auto;
+  width: auto;
+  background-color: #ddd7cb;
+}
+
+.box3{
+  background-image: url("../images/table.jpeg");
+  height: 415px;
+  width: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -513px 100px 100px 900px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box3 > div{
+  height: auto;
+  width: auto;
+}
+
+.box4{ 
+  background-image: url("../images/seat.jpeg");
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 150px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box4 > div{
+  height: auto;
+  width: auto;
+}
+
+.box5{
+  background-image: url("../images/tree.jpg");
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -435px 100px 100px 600px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box5 > div{
+  height: auto;
+  width: auto;
+}
+
+.box6{
+  height: 415px;
+  width: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -513px 100px 100px 1000px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.box6 > div{
+  height: auto;
+  width: auto;
+  background-color: #ddd7cb;
+}
+
+footer{
+  background-color: black;
+  padding: 55px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer_1{
+  text-align: left;
+  margin-left: 50px;
+}
+
+footer > div{
+  height: auto;
+  width: auto;
+  background-color: black;
+  color: #ffffff;
+}
+
+.logo{
+  margin-right: auto;
+  height: 30px;
+  width: 45px;
+}
+
+.mainlogo{
+  position: relative;
+  margin-left: 150px;
+  margin-top: 60px
+}
+
+.textimage{
+  float: left;
+  height: 325px;
+  width: auto;
+}
+
+.img7, .img8{
+  width: 100px;
+  height: 50px;
+}
+
+element.style {
+    position: relative;
+    height: 1360px;
+}
+
+.grid {
+    opacity: 1;
+    margin: 55px 0;
+    transition: opacity .5s ease;
+}
+
+.fade-over .fade-over__overlay {
+    position: absolute;
+    opacity: .3;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    transition: opacity .5s ease-in-out;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.read-more-link{
+    position: relative;
+    font-family: Yeseva One,sans-serif;
+    font-size: 16px;
+    color: #896d4a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: 0;
+    transition: all .5s ease;
+}
+
+.meetbutton {
+    display: inline-block;
+    padding: 6px 16px;
+    color: #4a4539;
+    background-color: #e8e0d8;
+    font-family: Yeseva One,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+div {
+  background: rgb(0,0,0,0.4)
+}
+
+
